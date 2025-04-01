@@ -8,8 +8,8 @@ namespace Repository.Infrastructure.Services.AzureDevOps
     public class AzureDevOpManager : IAzureDevOpsManager
     {
         private readonly HttpClient _httpClient;
-        private readonly string _organization = "polane82"; // Replace with your Azure DevOps org
-        private readonly string _personalAccessToken = "3ToYzlTeXTtioyLADI3eHa14H9nTc1f1pGetef9gjSKHnO0gwq9YJQQJ99BCACAAAAAAAAAAAAASAZDO1shx"; // Use an environment variable!
+        private readonly string _organization = ""; // Replace with your Azure DevOps org
+        private readonly string _personalAccessToken = "x"; // Use an environment variable!
 
         public AzureDevOpManager()
         {

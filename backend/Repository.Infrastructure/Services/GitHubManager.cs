@@ -8,7 +8,7 @@ namespace Repository.Infrastructure.Services.Github
     {
         private readonly GitHubClient _client;
 
-        public GitHubManager(string githubToken = "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")
+        public GitHubManager(string githubToken = "")
         {
             _client = new GitHubClient(new ProductHeaderValue("GithubManager"));
             _client.Credentials = new Credentials(githubToken);
