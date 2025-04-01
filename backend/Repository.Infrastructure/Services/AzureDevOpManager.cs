@@ -9,7 +9,7 @@ namespace Repository.Infrastructure.Services.AzureDevOps
     {
         private readonly HttpClient _httpClient;
         private readonly string _organization = ""; // Replace with your Azure DevOps org
-        private readonly string _personalAccessToken = "x"; // Use an environment variable!
+        private readonly string _personalAccessToken = ""; // Use an environment variable!
 
         public AzureDevOpManager()
         {
